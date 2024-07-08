@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    width: 35%;
+    text-align: right;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-attachment: scroll, scroll;
+    background-image: url(img/minh-dwVGMWnwJVw-unsplash.jpg);
+    background-size: cover;
+    padding: 8em 4em;
+}
+
+header img {
+    width: 100px;
+}
+
+footer {
+    width: 100%;
+}
+
+.copyright {
+    vertical-align: baseline;
+    font-size: 0.8em;
+}
+.copyright li {
+    display: inline-block;
+}
+.icons li{
+    display: inline-block;
+}
+
+div.inner ul {
+    width: 100%;
+    margin-top: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+li i {
+    color: black;
+}
